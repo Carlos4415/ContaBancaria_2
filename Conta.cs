@@ -5,5 +5,5 @@
     public int NumeroConta { get; set; }
     public double Saldo { get; set; }
     public double Limite { get; set; }
-    public string Informações => $"Conta nº {this.NumeroConta}, Agência {this.Agencia}, Titular: {this.Titular.Nome} - Saldo: {this.Saldo}";
+    public string Informacoes => $"Conta nº {this.NumeroConta}, Agência {this.Agencia}, Titular: {this.Titular.Nome} - Saldo: {this.Saldo}";
 }
